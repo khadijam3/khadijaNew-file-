@@ -1,1 +1,7 @@
-this is our code basse 
+this is our code basse
+this si new file and add more and more
+driver.get("https://www.monsterindia.com/");
+        driver.manage().window().maximize();
+      driver.findElement(By.xpath("//span[@class='uprcse semi-bold']")).click();
+        driver.findElement(By.id("file-upload")).sendKeys("C:/Users/rasik/Downloads/pic.JPG");
+
